@@ -9,6 +9,8 @@ import org.apache.hadoop.mapreduce.Reducer;
 
 public class StubReducer extends Reducer<Text, LongWritable, Text, LongWritable> {
 
+	//use this to test git hub
+
   @Override
   public void reduce(Text key, Iterable<LongWritable> values, Context context)
       throws IOException, InterruptedException {
